@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+form {
+  width: 345px;
+  height: 580px;
+  background: url("../transport/v203_41.png");
+  opacity: 1;
+  position: absolute;
+  padding-top: 75px;
+  padding-left: 50px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%,-50%);
+}
+h1{
+  text-align: center;
+  margin-bottom: 45px;
+  color: black;
+  font-size:  25px;
+}
+.form-group{
+  border-bottom: 2px solid grey;
+  position:relative;
+  margin: 35px 0;
+}
+.form-group input{
+  background: none;
+  outline: none;
+  border: none;
+  width: 50%;
+  font-size: 20px;
+  position: relative;
+}

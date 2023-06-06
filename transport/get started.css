@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  form {
+      width: 345px;
+      height: 692px;
+      background: url("../transport/v207_4.png");
+      opacity: 1;
+      position: absolute;
+      padding-top: 50px;
+      padding-left: 75px;
+      left: 50%;
+      top: 50%;
+      overflow: hidden;
+      transform: translate(-50%,-50%)
+  }
